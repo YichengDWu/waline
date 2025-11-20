@@ -10,10 +10,7 @@
     },
     {
       "src": "index.cjs",
-      "use": "@vercel/node",
-      "config": {
-        "installCommand": "pnpm install --no-frozen-lockfile"
-      }
+      "use": "@vercel/node"
     }
   ],
   "rewrites": [
